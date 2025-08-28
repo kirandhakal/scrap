@@ -264,8 +264,8 @@ if __name__ == "__main__":
     ]
 
     # Get bot credentials from environment variables
-    BOT_TOKEN = os.getenv("8496885589:AAElny1uAkEkwWpzYU2sximdl1enkkyvEBo", "")
-    CHAT_ID = os.getenv("1954816684", "")
+    BOT_TOKEN = os.getenv("BOT_TOKEN", "")
+    CHAT_ID = os.getenv("CHAT_ID", "")
 
     if not BOT_TOKEN or not CHAT_ID:
         print("⚠️ Missing BOT_TOKEN or CHAT_ID environment variables")
