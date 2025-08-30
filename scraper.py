@@ -101,7 +101,7 @@ class NoticeScraper:
         
         # Enhanced keywords for notice detection
         notice_keywords = [
-            "notice", "सूचना", "announcement", "tender", "बोलपत्र",
+            "notice", "सूचना", "announcement",
             "vacancy", "रिक्त", "result", "नतिजा", "admission", "भर्ना"
         ]
         
